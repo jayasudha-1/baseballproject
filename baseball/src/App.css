@@ -1,0 +1,43 @@
+.app {
+
+  text-align: center;
+ 
+  padding: 10px;
+ 
+ }
+ 
+ .player-list {
+ 
+  display: flex;
+ 
+  flex-wrap: wrap;
+ 
+  justify-content: center;
+ 
+  gap: 10px;
+ 
+ }
+ 
+ .player-card {
+ 
+  border: 1px solid #ccc;
+ 
+  padding: 10px;
+ 
+  text-align: center;
+ 
+ }
+ 
+ .player-card img {
+ 
+  max-width: 80px;
+ 
+  max-height: 100px;
+ 
+ }
+ 
+ .player-card.selected {
+ 
+  background-color: #f2f2f2;
+ 
+ }
